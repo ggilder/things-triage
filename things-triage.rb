@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-Dir.chdir(File.dirname(File.expand_path(__FILE__)))
+Dir.chdir(File.dirname(File.realpath(__FILE__)))
 
 require 'rubygems'
 require 'bundler'
